@@ -187,3 +187,6 @@ Please create a different local account before using Azure Active Directory Join
 
 ---
 
+Proposed update: 
+Q: Can I use Windows 10 hybrid Join with AlternateId Login 
+A: Yes, when using federated accounts and AlternatId is correctly setup. When using managed account, currently you cannot obtain the Azure AD Primary Refresh Token. 
