@@ -21,6 +21,8 @@ Before combined registration, users registered authentication methods for Azure 
 
 ![My Profile showing registered Security info for a user](media/concept-registration-mfa-sspr-combined/combined-security-info-defualts-registered.png)
 
+*** Highlight that when selecting the "Security Info" option/tab, on any browser, if you change the default settings or have a GPO that blocks third party cookies, access will not be allowed and an error page will be thrown. This happens, because Azure AD cookies will not be allowed under this context, blocking the AuthN/AuthZ process ***  
+
 Before enabling the new experience, review this administrator-focused documentation and the user-focused documentation to ensure you understand the functionality and effect of this feature. Base your training on the [user documentation](../user-help/user-help-security-info-overview.md) to prepare your users for the new experience and help to ensure a successful rollout.
 
 Azure AD combined security information registration is not currently available to national clouds like Azure US Government, Azure Germany, or Azure China 21Vianet.
